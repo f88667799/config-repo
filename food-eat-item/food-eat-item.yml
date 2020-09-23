@@ -1,0 +1,10 @@
+management:
+  endpoint:
+    health:
+      show-details: always      #一直展示详细的信息
+  endpoints:
+    web:
+      exposure:
+        include: '*'            #暴力所有接口的服务
+  security:
+    enabled: false              #关闭安全校验这一块
