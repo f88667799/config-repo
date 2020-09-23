@@ -1,5 +1,4 @@
 
-
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource                           #数据库连接池的类型 {cipher}作用告知需要解密，不加此标识将不会进行对称解密，直接以字符响应出去
