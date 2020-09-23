@@ -1,6 +1,15 @@
+
+#数据源配置信息，使用对称加密后的格式
+#{cipher}加入此项，告知配置中心服务，需要进行解密操作，不加此项会以字符串的形式进行返回出去
 renpu:
   datasource:
     url: '{cipher}924cdf126d998ab34cede1cbf75feedb36159270578ce9c39d6639fa8e669fd13a4c9685a5250418ef132536b04a32274af33435ad6b6568619b6657bcc2fe37673a122e7c338553cf047b04e417a37c486120850852c92a64a69aed792f0fbbbd28a9eaf7140b65aecd749451e36d85dede1b40778897821444fcda01fe05722756f5fa4787f0b099f0379214bf632adefba14dae3207e63ea92c6643005765'
     username: '{cipher}8072bf0da1bd895bea88014cdad1b8ef51a3a6420c4ebebf365d01f0207b9683'
     password: '{cipher}a62c4ae1fe430961a451cc2642ae59e8d4ad9770f7ab8f4378fd8c3519bb4f6f'
+    
+#设置注册功能，关闭的配置    
+userserice:
+  resgister:
+    enabled: true
+
 
