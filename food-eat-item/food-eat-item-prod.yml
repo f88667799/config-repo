@@ -1,5 +1,5 @@
 
-renpu:
+spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource                           #数据库连接池的类型 {cipher}作用告知需要解密，不加此标识将不会进行对称解密，直接以字符响应出去
     url: '{cipher}438c7d8c9941be285e96f5462db95f5788f76eb1c15f02b763969693ec304f40045d5d411596046acef8ae43d8c7bf59ec3a601c84a548e5494e8e9300994481c32c60a55800cc83231b5b5fe7f7beb2d48047080d28ea4d21525fce76255c51744d9a7c51c17d04b5b45b1e6b49a8a2aa4715dd6b75267b06728df3087ac76c5dc1f0099318cc9fd68534d761ba60c34a336907b3625bb6f5c0be016e3761e7'
