@@ -1,0 +1,10 @@
+'{}d97d784a9f76f4af515ccbee5151eeaaef5e33f045ed293e7b094a79b9854028'
+
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource                           #数据库连接池的类型
+    url: jdbc:mysql://localhost:3306/everyday_eat?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver                           #mysql的数据库连接的驱动
+    username: root
+    password: root
