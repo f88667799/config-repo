@@ -1,5 +1,8 @@
 renpu:
-   url: '{cipher}8e9288ea7ec8fc179059b69198583585defc969b8997248640702a31a72ebd54fe0898027a859c5d6b17f0be510c2a52aa652a19f65342b90bf6395d3772148041884cad948af5f6627755eea4132277019c24f71b320e0c1da6531393f4282fd6fb3aa5ba845ce7a24a699cb9e3aa0f73c22f656ae5450f5abb1b7fdede094be9b38b99848ed7ff64d1cef049c71890f80e6de5f80eccac8d7902302c7d7e79'
-   username: '{cipher}e6452f5301fe531f41a07eca2d6214d9092024f4841f9d05feed8ed4ca9df081'
-   password: '{cipher}15f320542083e4dffdbbd76edc1b2053a7108d36ff82fa5113a718c8e8544fe7'
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource                           #数据库连接池的类型
+    url: jdbc:mysql://localhost:3306/everyday_eat?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver                           #mysql的数据库连接的驱动
+    username: root
+    password: root
 
